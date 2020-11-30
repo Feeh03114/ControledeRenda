@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1089135117364",
+    "firebase_url": "https://controlador-de-renda.firebaseio.com",
+    "project_id": "controlador-de-renda",
+    "storage_bucket": "controlador-de-renda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089135117364:android:9ab5bfd4c5fa5cbb62b661",
+        "android_client_info": {
+          "package_name": "com.feehales.controlederenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089135117364-to7kq071ib25uci6ucecqj380v8bb398.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.feehales.controlederenda",
+            "certificate_hash": "21787e124a252b6d3abab76d2efc50323dc10b4f"
+          }
+        },
+        {
+          "client_id": "1089135117364-c6uoc7q6iurjjn811n3dtpj7h5v9mr7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY3CO2pt1DRwm7RihCMAOTegqXBy3gWLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089135117364-c6uoc7q6iurjjn811n3dtpj7h5v9mr7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

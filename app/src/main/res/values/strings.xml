@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Controle De Renda</string>
+    <string name="bem_vindo">Bem Vindo</string>
+    <string name="saldo_atual">Saldo Atual</string>
+    <string name="reais">R$</string>
+    <string name="contas_fixas">Contas Fixas</string>
+    <string name="sal_rio">Salário</string>
+    <string name="controle_de_renda">Controle de Renda</string>
+    <string name="poupanca">Poupança</string>
+    <string name="cartao_usado">Gasto</string>
+    <string name="vezes">Vezes</string>
+    <string name="configuracao">Configuração</string>
+    <string name="salvar_gasto">Salvar Gasto</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="configuracao_titulo">CONFIGURAÇÃO</string>
+    <string name="salario">Salário:</string>
+    <string name="total_fixo">Gastos Fixo:</string>
+    <string name="tirar">Tirar</string>
+    <string name="deposito">Deposito</string>
+    <string name="salvar_deposito">Salvar Deposito</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="valor">Valor</string>
+    <string name="valor_depositado">Valor Depositado</string>
+    <string name="valor_gasto">Valor Gasto</string>
+    <string name="e_mail_or_username">E-mail:</string>
+    <string name="salvar">Salvar</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="valor_salario">Valor Salário</string>
+    <string name="e_mail">E-mail</string>
+    <string name="username">Nome Completo</string>
+    <string name="idade">Idade</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="sexo">Sexo:</string>
+    <string name="lembrar_username_e_password">Lembrar Username e password</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="logoff">Logout</string>
+    <string name="nome_da_conta">Nome da Conta</string>
+    <string name="data">Data</string>
+    <string-array name="sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Prefiro não me identificar</item>
+    </string-array>
+</resources>

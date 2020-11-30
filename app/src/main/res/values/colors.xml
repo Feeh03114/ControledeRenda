@@ -1,0 +1,12 @@
+<?xml version="1.1" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FF9800</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorbarra">#018C7E</color>
+    <color name="colorsaldonegativo">#DB1800</color>
+    <color name="colorsaldo">#00DB1B</color>
+    <color name="background">#A9C8C8C8</color>
+    <color name="background_two">#B97ACC7D</color>
+    <color name="Back">#000000</color>
+</resources>

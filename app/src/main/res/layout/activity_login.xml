@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".layout.LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textSize="46sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autofillHints="@string/e_mail_or_username"
+        android:hint="@string/e_mail_or_username"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints="@string/password"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/lembrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lembrar_username_e_password" />
+
+    <TextView
+        android:id="@+id/esqueci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:text="@string/esqueci_a_senha" />
+
+    <Button
+        android:id="@+id/loginsalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"
+        android:text="@string/cadastro" />
+
+
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.2" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:padding="16dp"
+        tools:context=".layout.MainActivity">
+
+
+        <TextView
+            android:id="@+id/bem_vindo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bem_vindo"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/bem_vindo"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorbarra" />
+
+        <TextView
+            android:id="@+id/Controle_renda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bem_vindo"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/controle_de_renda"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/Controle_renda"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorbarra" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/saldo"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorbarra" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/saldo_poupanca"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorbarra" />
+
+        <TextView
+            android:id="@+id/saldo_atual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Controle_renda"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/saldo_atual"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/saldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saldo_atual"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/reais"
+            android:textColor="@color/colorsaldo"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/poupanca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saldo"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/poupanca"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/saldo_poupanca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/poupanca"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/reais"
+            android:textColor="@color/colorsaldo"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/Catao_usado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saldo_poupanca"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/cartao_usado"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/textbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Catao_usado"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reais"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/valor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:hint="@string/valor_gasto"
+                android:inputType="numberDecimal"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button_gasto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="@string/salvar_gasto"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/poupanca_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbox"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="Poupança:"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:id="@+id/textbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/poupanca_text"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reais"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/valor_poupanca"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:hint="@string/valor"
+                android:inputType="numberDecimal"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button_tirar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textbox"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/tirar"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/guardar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:text="@string/guardar"
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/deposito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textbox1"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/deposito"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/depositobox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deposito"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/reais"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/valor_deposito"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:hint="@string/valor_depositado"
+                android:inputType="numberDecimal"
+                android:text="" />
+
+            <Button
+                android:id="@+id/button_deposito"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/button_background"
+                android:text="@string/salvar_deposito"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/depositobox"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/button_background"
+            android:text="@string/configuracao"
+            android:textColor="@color/colorPrimary" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

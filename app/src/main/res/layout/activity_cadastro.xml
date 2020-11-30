@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".layout.CadastroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro"
+        android:textSize="46sp" />
+
+    <EditText
+        android:id="@+id/cdemail"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/e_mail"/>
+
+    <EditText
+        android:id="@+id/cdpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:id="@+id/cdpasswordconfimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"/>
+
+    <EditText
+        android:id="@+id/cdUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="@string/username"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/cdidade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/idade"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/sexo"/>
+
+        <Spinner
+            android:id="@+id/sexo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/cdcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_background"/>
+
+</LinearLayout>
